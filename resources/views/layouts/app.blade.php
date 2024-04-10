@@ -27,7 +27,6 @@
             @endguest
 
             @auth
-              
                 <nav class="flex gap-4 items-center">
                     <a href="/{{ auth()->user()->username }}" class="font-bold text-gray-500">Hola:
                         <span class="font-normal">
